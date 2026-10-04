@@ -1,0 +1,13 @@
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.status {
+  color: var(--color-muted);
+}
+
+.status--error {
+  color: var(--color-error);
+}

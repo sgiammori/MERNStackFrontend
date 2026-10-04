@@ -1,0 +1,91 @@
+.idea-detail {
+  padding: 2rem;
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+.idea-detail__summary {
+  font-size: 1.15rem;
+  font-weight: 500;
+}
+
+.idea-detail__description {
+  color: var(--color-muted);
+}
+
+.idea-detail .tags {
+  margin: 1.5rem 0;
+}
+
+.btn {
+  padding: 0.5rem 1.2rem;
+  border: none;
+  border-radius: var(--radius);
+  color: #fff;
+  background-color: var(--color-primary);
+  transition: background-color 0.15s;
+}
+
+.btn:hover {
+  background-color: var(--color-primary-hover);
+}
+
+.btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.btn--secondary {
+  color: var(--color-text);
+  background-color: var(--color-bg);
+  border: 1px solid var(--color-border);
+}
+
+.btn--secondary:hover {
+  background-color: var(--color-border);
+}
+
+.btn--danger {
+  background-color: var(--color-error);
+}
+
+.btn--danger:hover {
+  background-color: color-mix(in srgb, var(--color-error) 85%, black);
+}
+
+.idea-detail__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.idea-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.idea-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  font-weight: 500;
+}
+
+.idea-form input,
+.idea-form textarea {
+  font: inherit;
+  padding: 0.55rem 0.75rem;
+  color: var(--color-text);
+  background-color: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+}
+
+.idea-form input:focus,
+.idea-form textarea:focus {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 1px;
+}
